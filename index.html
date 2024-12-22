@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Oldagram</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img class="logo-img" alt="oldagram main logo image" src="images/logo.png">
+                <img class="profile-img" alt="it shows a user's profile image" src="./images/user-avatar.png">
+            </div>
+        </header>
+        
+        <section>
+            <div class="container user-top">
+                <img class="profile-img" alt="avatar image of vangogh" src="./images/avatar-vangogh.jpg">
+                <div>
+                    <p class="user-name">Vincent van Gogh</p>
+                    <p class="user-location">Zubert, Netherlands</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <img class="main-img" src=./images/post-vangogh.jpg alt="it shows a main image.">
+                <div class="btn">
+                    <button id="likes-el">
+                        <img alt="a heart icon to give likes" src="./images/icon-heart.png">
+                    </button>
+                    <button>
+                        <img alt="a comment icon to see comments" src="./images/icon-comment.png">
+                    </button>
+                    <button>
+                        <img alt="it's button for sharing an existing post" src="./images/icon-dm.png">
+                    </button>
+                </div>
+            </div>
+            <div class="container">    
+                <p id="render-likes">0 likes</p>
+                <p>vincey1853 <span>just took a few mushrooms lol</span></p>
+            </div>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
